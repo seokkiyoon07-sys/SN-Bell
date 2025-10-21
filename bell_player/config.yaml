@@ -1,0 +1,27 @@
+timezone: Asia/Seoul
+volume: 1.0
+workdays_only: true
+allow_weekend: false
+log_file: logs/bell.log
+start_time: 0805
+end_time: '1637'
+autoplay_next_day: true
+test_mode: false
+sound_ext: mp3
+misfire_grace_seconds: 60
+refresh_time: 00:01
+sounds_dir: C:\code\SN-Bell\bell_sound
+default_manual_indices:
+- 5
+- 7
+- 11
+- 13
+- 16
+- 18
+- 22
+- 24
+- 27
+- 29
+- 31
+prefer_mci: true
+ffplay_path: ''
