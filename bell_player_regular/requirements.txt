@@ -1,6 +1,12 @@
 apscheduler==3.10.4
+ntplib==0.4.0
 pydub==0.25.1
 python-dateutil==2.9.0.post0
 pytz==2024.1
 PyYAML==6.0.2
 requests==2.31.0
+
+# 테스트 관련 의존성 (개발용)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
